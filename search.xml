@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Git学习笔记</title>
+    <url>/2022/07/30/git/</url>
+    <content><![CDATA[<h3 id="1-版本管理工具概念"><a href="#1-版本管理工具概念" class="headerlink" title="1.版本管理工具概念"></a>1.版本管理工具概念</h3><p>我在大学毕业写论文的时候的时候碰到过如下的现象</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;&lt;毕业论文第一版.doc&gt;&gt;</span><br><span class="line">&lt;&lt;毕业论文第二版.doc&gt;&gt;</span><br><span class="line">&lt;&lt;毕业论文第三版.doc&gt;&gt;</span><br><span class="line">&lt;&lt;毕业论文最终版.doc&gt;&gt;</span><br><span class="line">&lt;&lt;毕业论文最终版2.doc&gt;&gt;</span><br></pre></td></tr></table></figure>
+
+<p>类似的问题我曾经也碰到过很多,例如:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">领导让写文档,写好了,领导让修改,改好了,领导觉得第一版不错,改回来吧,此时内心一脸懵,第一版长啥样没存档啊</span><br></pre></td></tr></table></figure>
+
+<p>实际上,代码开发中也需要这样的软件来管理我们的代码. 例如我们经常会碰到如下的现象:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">改之前好好的,改完就报错了,也没怎么修改啊</span><br></pre></td></tr></table></figure>
+
+<p>在这种情况下如果不能查看修改之前的代码,查找问题是非常困难的.</p>
+<p>如果有一个软件能记录我们对文档的所有修改,所有版本,那么上面的问题讲迎刃而解.而这类软件我们一般叫做版本控制工具</p>
+<p>版本管理工具一般具有如下特性:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1) 能够记录历史版本,回退历史版本</span><br><span class="line"></span><br><span class="line">2) 团队开发,方便代码合并</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+<h3 id="2-版本管理工具介绍"><a href="#2-版本管理工具介绍" class="headerlink" title="2.版本管理工具介绍"></a>2.版本管理工具介绍</h3><p>现在比较流行的版本管理工具是git ,但是实际上git 是近几年才发展起来的,可能有一些老的项目,还在用一些老的软件,比如svn</p>
+<h4 id="2-1-1-SVN-SubVersion"><a href="#2-1-1-SVN-SubVersion" class="headerlink" title="2.1.1 SVN(SubVersion)"></a>2.1.1 SVN(SubVersion)</h4><p>工作流程</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">SVN是集中式版本控制系统，版本库是集中放在中央服务器的.</span><br><span class="line">工作流程如下:</span><br><span class="line">1.从中央服务器远程仓库下载代码</span><br><span class="line">2.修改后将代码提交到中央服务器远程仓库</span><br></pre></td></tr></table></figure>
+
+<p>优缺点:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">优点: 简单,易操作</span><br><span class="line">缺点:所有代码必须放在中央服务器  </span><br><span class="line">1.服务器一旦宕机无法提交代码,即容错性较差</span><br><span class="line">2.离线无法提交代码,无法及时记录我们的提交行为</span><br></pre></td></tr></table></figure>
+
+<p>svn流程图<br><img src="../images/svn.jpg"></p>
+<h4 id="2-1-2-Git"><a href="#2-1-2-Git" class="headerlink" title="2.1.2 Git"></a>2.1.2 Git</h4><p>工作流程</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Git是分布式版本控制系统（Distributed Version Control System，简称 DVCS），分为两种类型的仓库：</span><br><span class="line">本地仓库和远程仓库</span><br><span class="line">工作流程如下</span><br><span class="line">1．从远程仓库中克隆或拉取代码到本地仓库(clone/pull)</span><br><span class="line">2．从本地进行代码修改</span><br><span class="line">3．在提交前先将代码提交到暂存区</span><br><span class="line">4．提交到本地仓库。本地仓库中保存修改的各个历史版本</span><br><span class="line">5．修改完成后，需要和团队成员共享代码时，将代码push到远程仓库</span><br></pre></td></tr></table></figure>
+<p><img src="../images/git.png"></p>
+]]></content>
+      <tags>
+        <tag>git</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>开发必备工具</title>
+    <url>/2022/07/30/tools/</url>
+    <content><![CDATA[<p>intellij IDEA<br>高度智能<br>当 IntelliJ IDEA 为源码建好索引后，即可为各 种上下文提供相关建议， 使开发者体验到无与伦比 的快速和智能：快速的智能代码补全功能、实时代码分析和可靠的重构工具。<br><img src="../images/idea01.jpg"><br>……<br>WebStorm<br>……<br>Android Studio<br>……<br>DataGrip<br>……<br>IDM<br>……<br>terminal</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>安慧做的菜</title>
+    <url>/2022/07/30/anhui/</url>
+    <content><![CDATA[<p>安慧做的东北铁锅炖!<br><img src="../images/food.jpg"></p>
+]]></content>
+  </entry>
+</search>
