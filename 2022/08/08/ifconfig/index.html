@@ -76,20 +76,20 @@
             <h1 id="ifconfig命令command-not-found解决办法"><a href="#ifconfig命令command-not-found解决办法" class="headerlink" title="ifconfig命令command not found解决办法"></a><a target="_blank" rel="noopener" href="https://www.cnblogs.com/blue-smile/p/16184827.html">ifconfig命令command not found解决办法</a></h1><p>安装完centOS 7 执行ifconfig命令提示command not found</p>
 <p>解决办法：</p>
 <p>1、查找环境标量是否包含ifconfig。如下图，显示环境变量没有ifconfig。</p>
-
+<img src="/2022/08/08/ifconfig/1.jpg" class title="This is an 1 image">
 
 <p>2、执行 <code>yum search ifconfig</code> ，查找ifconfg脚本所在的本地安装包。</p>
 <p>显示如下：</p>
-
+<img src="/2022/08/08/ifconfig/2.jpg" class title="This is an 2 image">
 
 <p>3、说明ifconfig脚本的安装包在net-tools.x86_64的安装包中，执行 <code>yum -y install net-tools.x86_64</code> 命令（-y命令执行过程中跳过确认），重新安装即可。</p>
-
+<img src="/2022/08/08/ifconfig/3.jpg" class title="This is an 3 image">
 
 <p>4、检查安装是否成功</p>
-
+<img src="/2022/08/08/ifconfig/4.jpg" class title="This is an 4 image">
 
 <p>5、查找ifconfig脚本的位置，执行<code>find / -name ifconfig -print</code></p>
-
+<img src="/2022/08/08/ifconfig/5.jpg" class title="This is an 5 image">
 
             <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
             <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="false">
