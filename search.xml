@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>CentOS 7 Minimal</title>
+    <url>/2022/08/08/Minimal/</url>
+    <content><![CDATA[<h1 id="CentOS-7-Minimal网络配置"><a href="#CentOS-7-Minimal网络配置" class="headerlink" title="CentOS 7 Minimal网络配置"></a>CentOS 7 Minimal网络配置</h1><p>1.输入命令<code>cd /etc/sysconfig/network-scripts</code>进入网络配置文件目录</p>
+<p><strong><img src="/2022/08/08/Minimal/network-scripts.jpg" class title="This is an network-scriptsimage"></strong></p>
+<p>2.输入命令<code>vi ifcfg-ens32</code>，对文件进行编辑</p>
+<p><strong><img src="/2022/08/08/Minimal/ifcfg-ens33.jpg" class title="This is an ifcfg-ens33image"></strong></p>
+<p>3.输入<code>:wq</code>，保存退出</p>
+<p>4.输入<code>service network restart</code>，重启网络服务</p>
+<p>5.输入<code>ping baidu.com</code>，查看是否配置成功</p>
+]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>安慧做的菜</title>
+    <url>/2022/07/30/anhui/</url>
+    <content><![CDATA[<p>安慧做的东北铁锅炖!<br><strong><img src="/2022/07/30/anhui/food.jpg" class title="This is an food image"></strong></p>
+]]></content>
+  </entry>
+  <entry>
     <title>Git学习笔记</title>
     <url>/2022/07/30/git/</url>
     <content><![CDATA[<h3 id="1-版本管理工具概念"><a href="#1-版本管理工具概念" class="headerlink" title="1.版本管理工具概念"></a>1.版本管理工具概念</h3><p>我在大学毕业写论文的时候的时候碰到过如下的现象</p>
@@ -38,30 +59,34 @@
       </tags>
   </entry>
   <entry>
-    <title>CentOS 7 Minimal</title>
-    <url>/2022/08/08/Minimal/</url>
-    <content><![CDATA[<h1 id="CentOS-7-Minimal网络配置"><a href="#CentOS-7-Minimal网络配置" class="headerlink" title="CentOS 7 Minimal网络配置"></a>CentOS 7 Minimal网络配置</h1><p>1.输入命令<code>cd /etc/sysconfig/network-scripts</code>进入网络配置文件目录</p>
-<p><strong><img src="/2022/08/08/Minimal/network-scripts.jpg" class title="This is an network-scriptsimage"></strong></p>
-<p>2.输入命令<code>vi ifcfg-ens32</code>，对文件进行编辑</p>
-<p><strong><img src="/2022/08/08/Minimal/ifcfg-ens33.jpg" class title="This is an ifcfg-ens33image"></strong></p>
-<p>3.输入<code>:wq</code>，保存退出</p>
-<p>4.输入<code>service network restart</code>，重启网络服务</p>
-<p>5.输入<code>ping baidu.com</code>，查看是否配置成功</p>
-]]></content>
-      <categories>
-        <category>Linux</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>安慧做的菜</title>
-    <url>/2022/07/30/anhui/</url>
-    <content><![CDATA[<p>安慧做的东北铁锅炖!<br><strong><img src="/2022/07/30/anhui/food.jpg" class title="This is an food image"></strong></p>
-]]></content>
-  </entry>
-  <entry>
     <title>我喜欢的工具</title>
     <url>/2022/07/30/tools/</url>
     <content><![CDATA[<p>intellij IDEA (java IDE)<br>WebStorm (web IDE)<br>Android Studio (AS IDE)<br>DataGrip SQLyog (SQL IDE)<br>IDM (下载)<br>tempmonkey (插件)<br>terminal (终端)<br>Everything (搜索东西)<br>NotePad++ (记事本)<br>uTools(看个人习惯)<br>Docker<br>VMware<br>Typora<br>PotPlayer<br>DownKyi (B站视频)<br>Uninstall (卸载工具)<br>百度网盘(配合油猴和IDM使用)<br>网易云</p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>ifconfig</title>
+    <url>/2022/08/08/ifconfig/</url>
+    <content><![CDATA[<h1 id="ifconfig命令command-not-found解决办法"><a href="#ifconfig命令command-not-found解决办法" class="headerlink" title="ifconfig命令command not found解决办法"></a><a href="https://www.cnblogs.com/blue-smile/p/16184827.html">ifconfig命令command not found解决办法</a></h1><p>安装完centOS 7 执行ifconfig命令提示command not found</p>
+<p>解决办法：</p>
+<p>1、查找环境标量是否包含ifconfig。如下图，显示环境变量没有ifconfig。</p>
+
+
+<p>2、执行 <code>yum search ifconfig</code> ，查找ifconfg脚本所在的本地安装包。</p>
+<p>显示如下：</p>
+
+
+<p>3、说明ifconfig脚本的安装包在net-tools.x86_64的安装包中，执行 <code>yum -y install net-tools.x86_64</code> 命令（-y命令执行过程中跳过确认），重新安装即可。</p>
+
+
+<p>4、检查安装是否成功</p>
+
+
+<p>5、查找ifconfig脚本的位置，执行<code>find / -name ifconfig -print</code></p>
+
+]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
   </entry>
 </search>
