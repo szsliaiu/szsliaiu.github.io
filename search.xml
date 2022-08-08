@@ -61,7 +61,7 @@
   <entry>
     <title>ifconfig</title>
     <url>/2022/08/08/ifconfig/</url>
-    <content><![CDATA[<h1 id="ifconfig命令command-not-found解决办法"><a href="#ifconfig命令command-not-found解决办法" class="headerlink" title="ifconfig命令command not found解决办法"></a><a href="https://www.cnblogs.com/blue-smile/p/16184827.html">ifconfig命令command not found解决办法</a></h1><p>安装完centOS 7 执行ifconfig命令提示command not found</p>
+    <content><![CDATA[<h1 id="ifconfig命令command-not-found解决办法"><a href="#ifconfig命令command-not-found解决办法" class="headerlink" title="[ifconfig命令command not found解决办法]"></a>[ifconfig命令command not found解决办法]</h1><p>安装完centOS 7 执行ifconfig命令提示command not found</p>
 <p>解决办法：</p>
 <p>1、查找环境标量是否包含ifconfig。如下图，显示环境变量没有ifconfig。</p>
 <img src="/2022/08/08/ifconfig/1.jpg" class title="This is an 1 image">
