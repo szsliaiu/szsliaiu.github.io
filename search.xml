@@ -39,6 +39,12 @@
 ]]></content>
   </entry>
   <entry>
+    <title>我使用的工具</title>
+    <url>/2022/07/30/tools/</url>
+    <content><![CDATA[<p>intellij IDEA (java IDE)<br>WebStorm (web IDE)<br>Android Studio (AS IDE)<br>DataGrip&amp;SQLyog (SQL IDE)<br>IDM (下载)<br>tempmonkey (插件)<br>terminal (终端)<br>Everything (搜索东西)<br>NotePad++ (记事本)<br>uTools(快速打开)<br>Docker(容器化工具)<br>VMware(虚拟机管理)<br>Typora(.md)<br>PotPlayer(播放工具)<br>DownKyi (B站视频)<br>Uninstall (卸载工具)<br>百度网盘(配合油猴和IDM使用)<br>网易云<br>git&amp;svn(版本控制工具,相对于svn更喜欢git)<br>CPU-Z<br>EasyClash(稳定)<br>Bandizip(压缩工具)</p>
+]]></content>
+  </entry>
+  <entry>
     <title>Git学习笔记</title>
     <url>/2022/07/30/git/</url>
     <content><![CDATA[<h3 id="1-版本管理工具概念"><a href="#1-版本管理工具概念" class="headerlink" title="1.版本管理工具概念"></a>1.版本管理工具概念</h3><p>我在大学毕业写论文的时候的时候碰到过如下的现象</p>
@@ -74,11 +80,5 @@
       <tags>
         <tag>git</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>我使用的工具</title>
-    <url>/2022/07/30/tools/</url>
-    <content><![CDATA[<p>intellij IDEA (java IDE)<br>WebStorm (web IDE)<br>Android Studio (AS IDE)<br>DataGrip&amp;SQLyog (SQL IDE)<br>IDM (下载)<br>tempmonkey (插件)<br>terminal (终端)<br>Everything (搜索东西)<br>NotePad++ (记事本)<br>uTools(快速打开)<br>Docker(容器化工具)<br>VMware(虚拟机管理)<br>Typora(.md)<br>PotPlayer(播放工具)<br>DownKyi (B站视频)<br>Uninstall (卸载工具)<br>百度网盘(配合油猴和IDM使用)<br>网易云<br>git&amp;svn(版本控制工具,相对于svn更喜欢git)<br>CPU-Z<br>EasyClash(稳定)<br>Bandizip(压缩工具)</p>
-]]></content>
   </entry>
 </search>
