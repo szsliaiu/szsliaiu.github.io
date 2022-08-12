@@ -62,13 +62,11 @@
 <li>代理服务器端口：6666<img src="/2022/08/12/netease/setting.png" class title="This is an setting image"></li>
 </ul>
 <p>如使用一段时间后无法解锁，则需要重新执行命令，选择 <code>5</code> 更新。</p>
+<h1 id="Android端方法"><a href="#Android端方法" class="headerlink" title="Android端方法"></a>Android端方法</h1><p>俩种方式，下载内嵌版或者刷LSPosed(暂时不写了)</p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>我使用的工具</title>
-    <url>/2022/07/30/tools/</url>
-    <content><![CDATA[<p>intellij IDEA (java IDE)<br>WebStorm (web IDE)<br>Android Studio (AS IDE)<br>DataGrip&amp;SQLyog (SQL IDE)<br>IDM (下载)<br>tempmonkey (插件)<br>terminal (终端)<br>Everything (搜索东西)<br>NotePad++ (记事本)<br>uTools(快速打开)<br>Docker(容器化工具)<br>VMware(虚拟机管理)<br>Typora(.md)<br>PotPlayer(播放工具)<br>DownKyi (B站视频)<br>Uninstall (卸载工具)<br>百度网盘(配合油猴和IDM使用)<br>网易云<br>git&amp;svn(版本控制工具,相对于svn更喜欢git)<br>CPU-Z<br>EasyClash(稳定)<br>Bandizip(压缩工具)</p>
-]]></content>
+      <tags>
+        <tag>破解</tag>
+      </tags>
   </entry>
   <entry>
     <title>Git学习笔记</title>
@@ -473,8 +471,11 @@
 
 <p>`</p>
 ]]></content>
-      <tags>
-        <tag>git</tag>
-      </tags>
+  </entry>
+  <entry>
+    <title>我使用的工具</title>
+    <url>/2022/07/30/tools/</url>
+    <content><![CDATA[<p>intellij IDEA (java IDE)<br>WebStorm (web IDE)<br>Android Studio (AS IDE)<br>DataGrip&amp;SQLyog (SQL IDE)<br>IDM (下载)<br>tempmonkey (插件)<br>terminal (终端)<br>Everything (搜索东西)<br>NotePad++ (记事本)<br>uTools(快速打开)<br>Docker(容器化工具)<br>VMware(虚拟机管理)<br>Typora(.md)<br>PotPlayer(播放工具)<br>DownKyi (B站视频)<br>Uninstall (卸载工具)<br>百度网盘(配合油猴和IDM使用)<br>网易云<br>git&amp;svn(版本控制工具,相对于svn更喜欢git)<br>CPU-Z<br>EasyClash(稳定)<br>Bandizip(压缩工具)</p>
+]]></content>
   </entry>
 </search>
