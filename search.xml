@@ -39,36 +39,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>网易云解锁灰色歌曲</title>
-    <url>/2022/08/12/netease/</url>
-    <content><![CDATA[<h1 id="Windows端方法"><a href="#Windows端方法" class="headerlink" title="Windows端方法"></a>Windows端方法</h1><p>注意：Windows 7 如无法执行则需升级 Powershell 到 3.0 以上，XP 不支持</p>
-<h2 id="第一步，版本问题"><a href="#第一步，版本问题" class="headerlink" title="第一步，版本问题"></a><strong>第一步，版本问题</strong></h2><p>版本太高的话可能会失效导致代理成功也无法连上网络，我选择的是以下图片的版本，也可以按我提供的链接去下载 <a href="https://mydown.yesky.com/pcsoft/35385808/versions/">https://mydown.yesky.com/pcsoft/35385808/versions/</a> ，注意把<code>自动更新</code>换成有<code>新版本时提醒我</code></p>
-<img src="/2022/08/12/netease/update.png" class title="This is an update image">
-
-<h2 id="第二步，安装代理"><a href="#第二步，安装代理" class="headerlink" title="第二步，安装代理"></a><strong>第二步，安装代理</strong></h2><p>以 <code>管理员身份</code> 打开 <code>Powershell</code>，Windows 10/11 快捷入口：<code>Win + X</code> - <code>Windows Powershell(管理员)(A)</code></p>
-<p>复制以下代码，右键粘贴到命令行回车，打开安装菜单。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Force</span><br><span class="line">Invoke-Expression -Command (Invoke-WebRequest -UseBasicParsing -Uri https://bit.ly/2RYvE3p).Content</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>随后选择 <code>1</code> 即安装。</li>
-<li>安装完毕后选择 <code>3</code> 运行。</li>
-<li>如需添加开机自启，则执行 <code>7</code>。</li>
-<li>最后输入 <code>0</code> 退出。</li>
-</ul>
-<h2 id="第三步，设置代理"><a href="#第三步，设置代理" class="headerlink" title="第三步，设置代理"></a><strong>第三步，设置代理</strong></h2><p>打开网易云音乐客户端，进入设置页面，设置自定义代理</p>
-<ul>
-<li>自定义代理 ：填写服务器地址和端口号</li>
-<li>代理服务器地址：127.0.0.1 （推荐本机搭建，速度快）</li>
-<li>代理服务器端口：6666<img src="/2022/08/12/netease/setting.png" class title="This is an setting image"></li>
-</ul>
-<p>如使用一段时间后无法解锁，则需要重新执行命令，选择 <code>5</code> 更新。</p>
-<h1 id="Android端方法"><a href="#Android端方法" class="headerlink" title="Android端方法"></a>Android端方法</h1><p>俩种方式，下载内嵌版或者刷LSPosed(暂时不写了)</p>
-]]></content>
-      <tags>
-        <tag>破解</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Git学习笔记</title>
     <url>/2022/07/30/git/</url>
     <content><![CDATA[
@@ -477,5 +447,35 @@
     <url>/2022/07/30/tools/</url>
     <content><![CDATA[<p>intellij IDEA (java IDE)<br>WebStorm (web IDE)<br>Android Studio (AS IDE)<br>DataGrip&amp;SQLyog (SQL IDE)<br>IDM (下载)<br>tempmonkey (插件)<br>terminal (终端)<br>Everything (搜索东西)<br>NotePad++ (记事本)<br>uTools(快速打开)<br>Docker(容器化工具)<br>VMware(虚拟机管理)<br>Typora(.md)<br>PotPlayer(播放工具)<br>DownKyi (B站视频)<br>Uninstall (卸载工具)<br>百度网盘(配合油猴和IDM使用)<br>网易云<br>git&amp;svn(版本控制工具,相对于svn更喜欢git)<br>CPU-Z<br>EasyClash(稳定)<br>Bandizip(压缩工具)</p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>网易云解锁灰色歌曲</title>
+    <url>/2022/08/12/netease/</url>
+    <content><![CDATA[<h1 id="Windows端方法"><a href="#Windows端方法" class="headerlink" title="Windows端方法"></a>Windows端方法</h1><p>注意：Windows 7 如无法执行则需升级 Powershell 到 3.0 以上，XP 不支持</p>
+<h2 id="第一步，版本问题"><a href="#第一步，版本问题" class="headerlink" title="第一步，版本问题"></a><strong>第一步，版本问题</strong></h2><p>版本太高的话可能会失效导致代理成功也无法连上网络，我选择的是以下图片的版本，也可以按我提供的链接去下载 <a href="https://mydown.yesky.com/pcsoft/35385808/versions/">https://mydown.yesky.com/pcsoft/35385808/versions/</a> ，注意把<code>自动更新</code>换成有<code>新版本时提醒我</code></p>
+<img src="/2022/08/12/netease/update.png" class title="This is an update image">
+
+<h2 id="第二步，安装代理"><a href="#第二步，安装代理" class="headerlink" title="第二步，安装代理"></a><strong>第二步，安装代理</strong></h2><p>以 <code>管理员身份</code> 打开 <code>Powershell</code>，Windows 10/11 快捷入口：<code>Win + X</code> - <code>Windows Powershell(管理员)(A)</code></p>
+<p>复制以下代码，右键粘贴到命令行回车，打开安装菜单。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Force</span><br><span class="line">Invoke-Expression -Command (Invoke-WebRequest -UseBasicParsing -Uri https://bit.ly/2RYvE3p).Content</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>随后选择 <code>1</code> 即安装。</li>
+<li>安装完毕后选择 <code>3</code> 运行。</li>
+<li>如需添加开机自启，则执行 <code>7</code>。</li>
+<li>最后输入 <code>0</code> 退出。</li>
+</ul>
+<h2 id="第三步，设置代理"><a href="#第三步，设置代理" class="headerlink" title="第三步，设置代理"></a><strong>第三步，设置代理</strong></h2><p>打开网易云音乐客户端，进入设置页面，设置自定义代理</p>
+<ul>
+<li>自定义代理 ：填写服务器地址和端口号</li>
+<li>代理服务器地址：127.0.0.1 （推荐本机搭建，速度快）</li>
+<li>代理服务器端口：6666<img src="/2022/08/12/netease/setting.png" class title="This is an setting image"></li>
+</ul>
+<p>如使用一段时间后无法解锁，则需要重新执行命令，选择 <code>5</code> 更新。</p>
+<h1 id="Android端方法"><a href="#Android端方法" class="headerlink" title="Android端方法"></a>Android端方法</h1><p>俩种方式，下载内嵌版或者刷LSPosed(暂时不写了)</p>
+]]></content>
+      <tags>
+        <tag>破解</tag>
+      </tags>
   </entry>
 </search>
