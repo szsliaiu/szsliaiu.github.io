@@ -443,12 +443,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>我使用的工具</title>
-    <url>/2022/07/30/tools/</url>
-    <content><![CDATA[<p>intellij IDEA (java IDE)<br>WebStorm (web IDE)<br>Android Studio (AS IDE)<br>DataGrip&amp;SQLyog (SQL IDE)<br>IDM (下载)<br>tempmonkey (插件)<br>terminal (终端)<br>Everything (搜索东西)<br>NotePad++ (记事本)<br>uTools(快速打开)<br>Docker(容器化工具)<br>VMware(虚拟机管理)<br>Typora(.md)<br>PotPlayer(播放工具)<br>DownKyi (B站视频)<br>Uninstall (卸载工具)<br>百度网盘(配合油猴和IDM使用)<br>网易云<br>git&amp;svn(版本控制工具,相对于svn更喜欢git)<br>CPU-Z<br>EasyClash(稳定)<br>Bandizip(压缩工具)</p>
-]]></content>
-  </entry>
-  <entry>
     <title>网易云解锁灰色歌曲</title>
     <url>/2022/08/12/netease/</url>
     <content><![CDATA[<h1 id="Windows端方法"><a href="#Windows端方法" class="headerlink" title="Windows端方法"></a>Windows端方法</h1><p>注意：Windows 7 如无法执行则需升级 Powershell 到 3.0 以上，XP 不支持</p>
@@ -477,5 +471,12 @@
       <tags>
         <tag>破解</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>我使用的工具</title>
+    <url>/2022/07/30/tools/</url>
+    <content><![CDATA[<h1 id="一、windows"><a href="#一、windows" class="headerlink" title="一、windows"></a>一、windows</h1><p>intellij IDEA (java IDE)<br>WebStorm (web IDE)<br>Android Studio (AS IDE)<br>DataGrip&amp;SQLyog (SQL IDE)<br>IDM (下载)<br>tempmonkey (插件)<br>terminal (终端)<br>Everything (搜索东西)<br>NotePad++ (记事本)<br>uTools(快速打开)<br>Docker(容器化工具)<br>VMware(虚拟机管理)<br>Typora(.md)<br>PotPlayer(播放工具)<br>DownKyi (B站视频)<br>Uninstall (卸载工具)<br>百度网盘(配合油猴和IDM使用)<br>网易云<br>git&amp;svn(版本控制工具,相对于svn更喜欢git)<br>CPU-Z<br>EasyClash(稳定)<br>Bandizip(压缩工具)<br>Postman(接口测试)<br>redis(win+linux)-&gt;RESP(client)<br>mongodb(win+linux)<br>Nginx</p>
+<h1 id="二、Android"><a href="#二、Android" class="headerlink" title="二、Android"></a>二、Android</h1><p>Magisk+LSPosed<br>MTmanager<br>Bitwarden<br>Gmail<br>绿去<br>Mark<br>SD Maid<br>MyAndroidTools</p>
+]]></content>
   </entry>
 </search>
